@@ -93,6 +93,20 @@ const listaPokemon = [
     colorFondo: "#C6B3D7",
     colorBorde: "#9D8EB0",
   },
+  {
+    nombre: "Juani Roco",
+    img: "../img/ditto.webp",
+    tipo: ["Normal"],
+    numero: 67,
+    descripcion:
+      "Juani Roco",
+    hp: 67,
+    hpActual: 67,
+    ataque: 67,
+    defensa: 67,
+    velocidad: 67,
+    colorFondo: "#C6B3D7",
+    colorBorde: "#9D8EB0",}
 ];
 
 // === NUEVO CÓDIGO PARA CARGAR LOS POKEMONES DINÁMICAMENTE ===
@@ -179,3 +193,4 @@ function cargarPokemones() {
 
 // 6. ¡Llamamos a la función para que todo se ponga en marcha cuando se carga la página!
 cargarPokemones();
+
