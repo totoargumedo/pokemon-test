@@ -93,6 +93,21 @@ const listaPokemon = [
     colorFondo: "#C6B3D7",
     colorBorde: "#9D8EB0",
   },
+  {
+    nombre: "ZAZA ",
+    img: "../img/ZAZA.png",
+    tipo: ["Fuego"],
+    numero: 456,
+    descripcion:
+      "Es el mejor pokemon de todos.",
+    hp: 94,
+    hpActual: 94,
+    ataque: 66,
+    defensa: 66,
+    velocidad: 66,
+    colorFondo: "#ff0000ff",
+    colorBorde: "#3c31d1ff",
+  },
 ];
 
 // === NUEVO CÓDIGO PARA CARGAR LOS POKEMONES DINÁMICAMENTE ===
