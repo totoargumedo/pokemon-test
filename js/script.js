@@ -107,6 +107,49 @@ const listaPokemon = [
     velocidad: 66,
     colorFondo: "#ff0000ff",
     colorBorde: "#3c31d1ff",
+  },{
+    nombre: "Juani Roco",
+    img: "../img/ditto.webp",
+    tipo: ["Normal"],
+    numero: 67,
+    descripcion:
+      "Juani Roco",
+    hp: 67,
+    hpActual: 67,
+    ataque: 67,
+    defensa: 67,
+    velocidad: 67,
+    colorFondo: "#C6B3D7",
+    colorBorde: "#9D8EB0",
+  },{
+    nombre: "Gotzilla ",
+    img: "../img/Gotzilla.png",
+    tipo: ["Epica"],
+    numero: 150,
+    descripcion:
+      "Gotzilla revienta todo lo que se cruza en su camino.",
+    hp: 84,
+    hpActual: 84,
+    ataque: 98,
+    defensa: 91,
+    velocidad: 98,
+    colorFondo: "#0a5274ff",
+    colorBorde: "#91a3f0ff",
+  },{
+    nombre: "Nidoking",
+    img: "../img/Nidoking.png",
+    tipo: ["Veneno", "Tierra"],
+    numero: 34,
+    descripcion: "Usa su potente cola en combate para aplastar y oprimir a su presa. Después le rompe los huesos.",
+    hp: 122,
+    hpActual: 101,
+    ataque: 52,
+    defensa: 67,
+    velocidad: 31,
+    colorFondo: "#ee8bf7ff",
+    colorBorde: "#593068ff",
+
+
   },
 ];
 
@@ -194,3 +237,4 @@ function cargarPokemones() {
 
 // 6. ¡Llamamos a la función para que todo se ponga en marcha cuando se carga la página!
 cargarPokemones();
+
