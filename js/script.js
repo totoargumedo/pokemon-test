@@ -92,6 +92,21 @@ const listaPokemon = [
     velocidad: 96,
     colorFondo: "#C6B3D7",
     colorBorde: "#9D8EB0",
+  }, 
+   {
+    nombre: "Rayquaza",
+    img: "../img/bulbasaur.webp",
+    tipo: ["Agua, Dragon"],
+    numero: 41,
+    descripcion:
+      "Rayquaza es un Pokémon de tipo Agua y Dragon. Es conocido por provocar huracanes altamente violentos y atacar embarcaciones maritimas.",
+    hp: 78,
+    hpActual: 78,
+    ataque: 67,
+    defensa: 67,
+    velocidad: 40,
+    colorFondo: "#24cde4ff",
+    colorBorde: "#1518c7ff",
   },
 
     {
