@@ -93,6 +93,23 @@ const listaPokemon = [
     colorFondo: "#C6B3D7",
     colorBorde: "#9D8EB0",
   },
+
+    {
+    nombre: "Eevee",
+    img: "../img/eevee.webp",
+    tipo: ["Normal"],
+    numero: 133,
+    descripcion:
+      "Eevee es un Pokémon de tipo Normal. Es famoso por su habilidad única de evolucionar en diferentes formas.",
+    hp: 55,
+    hpActual: 55,
+    ataque: 55,
+    defensa: 50,
+    velocidad: 55,
+    colorFondo: "#CDB79E",
+    colorBorde: "#8B7355",
+  }
+,
   {
     nombre: "ZAZA ",
     img: "../img/ZAZA.png",
@@ -151,6 +168,7 @@ const listaPokemon = [
 
 
   },
+
 ];
 
 // === NUEVO CÓDIGO PARA CARGAR LOS POKEMONES DINÁMICAMENTE ===
