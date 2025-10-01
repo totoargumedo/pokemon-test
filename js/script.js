@@ -94,6 +94,20 @@ const listaPokemon = [
     colorBorde: "#9D8EB0",
   },
   {
+    nombre: "ZAZA ",
+    img: "../img/ZAZA.png",
+    tipo: ["Fuego"],
+    numero: 456,
+    descripcion:
+      "Es el mejor pokemon de todos.",
+    hp: 94,
+    hpActual: 94,
+    ataque: 66,
+    defensa: 66,
+    velocidad: 66,
+    colorFondo: "#ff0000ff",
+    colorBorde: "#3c31d1ff",
+  },{
     nombre: "Juani Roco",
     img: "../img/ditto.webp",
     tipo: ["Normal"],
@@ -121,7 +135,7 @@ const listaPokemon = [
     velocidad: 98,
     colorFondo: "#0a5274ff",
     colorBorde: "#91a3f0ff",
-  },
+  },{
     nombre: "Nidoking",
     img: "../img/Nidoking.png",
     tipo: ["Veneno", "Tierra"],
@@ -134,6 +148,7 @@ const listaPokemon = [
     velocidad: 31,
     colorFondo: "#ee8bf7ff",
     colorBorde: "#593068ff",
+
 
   },
 ];
