@@ -92,100 +92,83 @@ const listaPokemon = [
     velocidad: 96,
     colorFondo: "#C6B3D7",
     colorBorde: "#9D8EB0",
-  }, 
-   {
-    nombre: "Rayquaza",
-    img: "../img/bulbasaur.webp",
-    tipo: ["Agua, Dragon"],
-    numero: 41,
-    descripcion:
-      "Rayquaza es un Pokémon de tipo Agua y Dragon. Es conocido por provocar huracanes altamente violentos y atacar embarcaciones maritimas.",
-    hp: 78,
-    hpActual: 78,
-    ataque: 67,
-    defensa: 67,
-    velocidad: 40,
-    colorFondo: "#24cde4ff",
-    colorBorde: "#1518c7ff",
   },
-
-    {
+  {
     nombre: "Eevee",
     img: "../img/eevee.webp",
     tipo: ["Normal"],
     numero: 133,
-    descripcion:
-      "Eevee es un Pokémon de tipo Normal. Es famoso por su habilidad única de evolucionar en diferentes formas.",
+    descripcion: 
+      "Eevee es un Pokémon de tipo Normal. Es conocido por su capacidad para evolucionar en varias formas diferentes dependiendo de las condiciones.",
     hp: 55,
     hpActual: 55,
     ataque: 55,
     defensa: 50,
     velocidad: 55,
-    colorFondo: "#CDB79E",
-    colorBorde: "#8B7355",
-  }
-,
-  {
-    nombre: "ZAZA ",
-    img: "../img/ZAZA.png",
-    tipo: ["Fuego"],
-    numero: 456,
-    descripcion:
-      "Es el mejor pokemon de todos.",
-    hp: 94,
-    hpActual: 94,
-    ataque: 66,
-    defensa: 66,
-    velocidad: 66,
-    colorFondo: "#ff0000ff",
-    colorBorde: "#3c31d1ff",
-  },{
-    nombre: "Juani Roco",
-    img: "../img/ditto.webp",
-    tipo: ["Normal"],
-    numero: 67,
-    descripcion:
-      "Juani Roco",
-    hp: 67,
-    hpActual: 67,
-    ataque: 67,
-    defensa: 67,
-    velocidad: 67,
-    colorFondo: "#C6B3D7",
-    colorBorde: "#9D8EB0",
-  },{
-    nombre: "Gotzilla ",
-    img: "../img/Gotzilla.png",
-    tipo: ["Epica"],
-    numero: 150,
-    descripcion:
-      "Gotzilla revienta todo lo que se cruza en su camino.",
-    hp: 84,
-    hpActual: 84,
-    ataque: 98,
-    defensa: 91,
-    velocidad: 98,
-    colorFondo: "#0a5274ff",
-    colorBorde: "#91a3f0ff",
-  },{
-    nombre: "Nidoking",
-    img: "../img/Nidoking.png",
-    tipo: ["Veneno", "Tierra"],
-    numero: 34,
-    descripcion: "Usa su potente cola en combate para aplastar y oprimir a su presa. Después le rompe los huesos.",
-    hp: 122,
-    hpActual: 101,
-    ataque: 52,
-    defensa: 67,
-    velocidad: 31,
-    colorFondo: "#ee8bf7ff",
-    colorBorde: "#593068ff",
-
-
+    colorFondo: "#D8C3A5",
+    colorBorde: "#A89078",
   },
-
+  {
+    nombre: "Lucario",
+    img: "../img/lucario.webp",
+    tipo: ["Lucha", "Acero"],
+    numero: 448,
+    descripcion:
+      "Lucario es un Pokémon de tipo Lucha y Acero. Es conocido por su habilidad para percibir y manipular auras.",
+    hp: 70,
+    hpActual: 70,
+    ataque: 110,
+    defensa: 70,
+    velocidad: 90,
+    colorFondo: "#B8B8D0",
+    colorBorde: "#A1871F",
+  },
+  {
+    nombre: "Coo",
+    img: "../img/coo.webp",
+    tipo: ["Volador"],
+    numero: 999,
+    descripcion:
+      "Coo es un Pokémon de tipo Volador. Su canto es capaz de calmar a otros Pokémon y humanos.",
+    hp: 60,
+    hpActual: 60,
+    ataque: 50,
+    defensa: 45,
+    velocidad: 80,
+    colorFondo: "#AEEEEE",
+    colorBorde: "#5F9EA0",
+  },
+  {
+    nombre: "Snorlax",
+    img: "../img/snorlax.webp",
+    tipo: ["Normal"],
+    numero: 143,
+    descripcion:
+      "Snorlax es un Pokémon de tipo Normal. Es famoso por dormir casi todo el día y por su enorme tamaño.",
+    hp: 160,
+    hpActual: 160,
+    ataque: 110,
+    defensa: 65,
+    velocidad: 30,
+    colorFondo: "#A8A878",
+    colorBorde: "#6D6D4E",
+  },
+  {
+    nombre: "Fennekin",
+    img: "../img/fennekin.webp",
+    tipo: ["Fuego"],
+    numero: 653,
+    descripcion:
+      "Fennekin es un Pokémon de tipo Fuego. Usa sus orejas para liberar aire caliente y defenderse.",
+    hp: 40,
+    hpActual: 40,
+    ataque: 45,
+    defensa: 40,
+    velocidad: 60,
+    colorFondo: "#F5AC78",
+    colorBorde: "#E25822",
+  }
 ];
-
 // === NUEVO CÓDIGO PARA CARGAR LOS POKEMONES DINÁMICAMENTE ===
 
 // 1. Guardamos en una variable el lugar donde vamos a poner las tarjetas.
